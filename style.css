@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+.resume-box {
+    border: 1px solid #ebebeb;
+    width: 610px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0px 1px 30px 0 rgba(0,0,0,1);
+    /* 가로축으로 뻗어나가는 정도 / 세로축 뻗어나가는 정도  */
+}
+
+.title-box {
+ text-align: right;
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.about-me-text
+
+.name-text {
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color:#282828;
+    float: left;
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.desc-text {
+    font-size: 9px;
+    margin-bottom: 6px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
+
+footer { 
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    padding: 20px;
+    font-size: 12px;
+}
